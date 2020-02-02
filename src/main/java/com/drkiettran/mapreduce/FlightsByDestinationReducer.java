@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 
 public class FlightsByDestinationReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
-    private static final Logger LOGGER = LoggerFactory.getLogger(FlightsByCarriersReducer.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(FlightsByDestinationReducer.class);
 
     @Override
     protected void reduce(Text token, Iterable<IntWritable> counts, Context context)

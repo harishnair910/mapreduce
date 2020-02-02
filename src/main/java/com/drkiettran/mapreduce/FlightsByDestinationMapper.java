@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 
 public class FlightsByDestinationMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
-    private static final Logger LOGGER = LoggerFactory.getLogger(FlightsByCarriersMapper.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(FlightsByDestinationMapper.class);
     private static final IntWritable ONE = new IntWritable(1);
 
     @Override
